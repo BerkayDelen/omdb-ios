@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25E30B312A1822EC76FE8EF2 /* Pods_loodos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065E3484ED58A46CA812DAE8 /* Pods_loodos.framework */; };
+		28CAEA5C1C2B0DD69BB49E0B /* Pods_loodos_loodosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4579EB75E8091EDD642386B /* Pods_loodos_loodosUITests.framework */; };
+		AF8D69F524ED213700740263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D69F424ED213700740263 /* AppDelegate.swift */; };
+		AF8D69F724ED213700740263 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D69F624ED213700740263 /* SceneDelegate.swift */; };
+		AF8D69F924ED213700740263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D69F824ED213700740263 /* ViewController.swift */; };
+		AF8D69FC24ED213700740263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8D69FA24ED213700740263 /* Main.storyboard */; };
+		AF8D69FE24ED213F00740263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8D69FD24ED213F00740263 /* Assets.xcassets */; };
+		AF8D6A0124ED213F00740263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8D69FF24ED213F00740263 /* LaunchScreen.storyboard */; };
+		AF8D6A0C24ED214000740263 /* loodosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D6A0B24ED214000740263 /* loodosTests.swift */; };
+		AF8D6A1724ED214000740263 /* loodosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8D6A1624ED214000740263 /* loodosUITests.swift */; };
+		F20B5E991C142620CD39571C /* Pods_loodosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A889708A23F1FEB3009B6E /* Pods_loodosTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF8D6A0824ED213F00740263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8D69E924ED213700740263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8D69F024ED213700740263;
+			remoteInfo = loodos;
+		};
+		AF8D6A1324ED214000740263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF8D69E924ED213700740263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8D69F024ED213700740263;
+			remoteInfo = loodos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065E3484ED58A46CA812DAE8 /* Pods_loodos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loodos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A889708A23F1FEB3009B6E /* Pods_loodosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loodosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		422CB27CECC558BF920EAEE8 /* Pods-loodosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loodosTests.debug.xcconfig"; path = "Target Support Files/Pods-loodosTests/Pods-loodosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9087350018465A4218C236CF /* Pods-loodos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loodos.debug.xcconfig"; path = "Target Support Files/Pods-loodos/Pods-loodos.debug.xcconfig"; sourceTree = "<group>"; };
+		96E9FEF970595DDE79CC8F98 /* Pods-loodosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loodosTests.release.xcconfig"; path = "Target Support Files/Pods-loodosTests/Pods-loodosTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF8D69F124ED213700740263 /* loodos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loodos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8D69F424ED213700740263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF8D69F624ED213700740263 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF8D69F824ED213700740263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF8D69FB24ED213700740263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF8D69FD24ED213F00740263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF8D6A0024ED213F00740263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF8D6A0224ED213F00740263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8D6A0724ED213F00740263 /* loodosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loodosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8D6A0B24ED214000740263 /* loodosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loodosTests.swift; sourceTree = "<group>"; };
+		AF8D6A0D24ED214000740263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8D6A1224ED214000740263 /* loodosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loodosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8D6A1624ED214000740263 /* loodosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loodosUITests.swift; sourceTree = "<group>"; };
+		AF8D6A1824ED214000740263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B532018BBCA206990742579D /* Pods-loodos-loodosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loodos-loodosUITests.debug.xcconfig"; path = "Target Support Files/Pods-loodos-loodosUITests/Pods-loodos-loodosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4579EB75E8091EDD642386B /* Pods_loodos_loodosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loodos_loodosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C37287AF05E18C60ED7DCA /* Pods-loodos-loodosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loodos-loodosUITests.release.xcconfig"; path = "Target Support Files/Pods-loodos-loodosUITests/Pods-loodos-loodosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED99A911B23C640CC843E0DF /* Pods-loodos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loodos.release.xcconfig"; path = "Target Support Files/Pods-loodos/Pods-loodos.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF8D69EE24ED213700740263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E30B312A1822EC76FE8EF2 /* Pods_loodos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8D6A0424ED213F00740263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20B5E991C142620CD39571C /* Pods_loodosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8D6A0F24ED214000740263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CAEA5C1C2B0DD69BB49E0B /* Pods_loodos_loodosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63F6D140F4E9E87FEEDD0105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				065E3484ED58A46CA812DAE8 /* Pods_loodos.framework */,
+				C4579EB75E8091EDD642386B /* Pods_loodos_loodosUITests.framework */,
+				38A889708A23F1FEB3009B6E /* Pods_loodosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94F141D42FC886C3B5D14B86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9087350018465A4218C236CF /* Pods-loodos.debug.xcconfig */,
+				ED99A911B23C640CC843E0DF /* Pods-loodos.release.xcconfig */,
+				B532018BBCA206990742579D /* Pods-loodos-loodosUITests.debug.xcconfig */,
+				E5C37287AF05E18C60ED7DCA /* Pods-loodos-loodosUITests.release.xcconfig */,
+				422CB27CECC558BF920EAEE8 /* Pods-loodosTests.debug.xcconfig */,
+				96E9FEF970595DDE79CC8F98 /* Pods-loodosTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF8D69E824ED213700740263 = {
+			isa = PBXGroup;
+			children = (
+				AF8D69F324ED213700740263 /* loodos */,
+				AF8D6A0A24ED213F00740263 /* loodosTests */,
+				AF8D6A1524ED214000740263 /* loodosUITests */,
+				AF8D69F224ED213700740263 /* Products */,
+				94F141D42FC886C3B5D14B86 /* Pods */,
+				63F6D140F4E9E87FEEDD0105 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF8D69F224ED213700740263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF8D69F124ED213700740263 /* loodos.app */,
+				AF8D6A0724ED213F00740263 /* loodosTests.xctest */,
+				AF8D6A1224ED214000740263 /* loodosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF8D69F324ED213700740263 /* loodos */ = {
+			isa = PBXGroup;
+			children = (
+				AF8D69F424ED213700740263 /* AppDelegate.swift */,
+				AF8D69F624ED213700740263 /* SceneDelegate.swift */,
+				AF8D69F824ED213700740263 /* ViewController.swift */,
+				AF8D69FA24ED213700740263 /* Main.storyboard */,
+				AF8D69FD24ED213F00740263 /* Assets.xcassets */,
+				AF8D69FF24ED213F00740263 /* LaunchScreen.storyboard */,
+				AF8D6A0224ED213F00740263 /* Info.plist */,
+			);
+			path = loodos;
+			sourceTree = "<group>";
+		};
+		AF8D6A0A24ED213F00740263 /* loodosTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF8D6A0B24ED214000740263 /* loodosTests.swift */,
+				AF8D6A0D24ED214000740263 /* Info.plist */,
+			);
+			path = loodosTests;
+			sourceTree = "<group>";
+		};
+		AF8D6A1524ED214000740263 /* loodosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF8D6A1624ED214000740263 /* loodosUITests.swift */,
+				AF8D6A1824ED214000740263 /* Info.plist */,
+			);
+			path = loodosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF8D69F024ED213700740263 /* loodos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8D6A1B24ED214000740263 /* Build configuration list for PBXNativeTarget "loodos" */;
+			buildPhases = (
+				B39984DF7C86442BF8DB2D4E /* [CP] Check Pods Manifest.lock */,
+				AF8D69ED24ED213700740263 /* Sources */,
+				AF8D69EE24ED213700740263 /* Frameworks */,
+				AF8D69EF24ED213700740263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loodos;
+			productName = loodos;
+			productReference = AF8D69F124ED213700740263 /* loodos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF8D6A0624ED213F00740263 /* loodosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8D6A1E24ED214000740263 /* Build configuration list for PBXNativeTarget "loodosTests" */;
+			buildPhases = (
+				EC661EE2AEAF1FF8BD8BE1E0 /* [CP] Check Pods Manifest.lock */,
+				AF8D6A0324ED213F00740263 /* Sources */,
+				AF8D6A0424ED213F00740263 /* Frameworks */,
+				AF8D6A0524ED213F00740263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8D6A0924ED213F00740263 /* PBXTargetDependency */,
+			);
+			name = loodosTests;
+			productName = loodosTests;
+			productReference = AF8D6A0724ED213F00740263 /* loodosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF8D6A1124ED214000740263 /* loodosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8D6A2124ED214000740263 /* Build configuration list for PBXNativeTarget "loodosUITests" */;
+			buildPhases = (
+				9FF12EECAF4192BA879FC082 /* [CP] Check Pods Manifest.lock */,
+				AF8D6A0E24ED214000740263 /* Sources */,
+				AF8D6A0F24ED214000740263 /* Frameworks */,
+				AF8D6A1024ED214000740263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8D6A1424ED214000740263 /* PBXTargetDependency */,
+			);
+			name = loodosUITests;
+			productName = loodosUITests;
+			productReference = AF8D6A1224ED214000740263 /* loodosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF8D69E924ED213700740263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AF8D69F024ED213700740263 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AF8D6A0624ED213F00740263 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AF8D69F024ED213700740263;
+					};
+					AF8D6A1124ED214000740263 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AF8D69F024ED213700740263;
+					};
+				};
+			};
+			buildConfigurationList = AF8D69EC24ED213700740263 /* Build configuration list for PBXProject "loodos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF8D69E824ED213700740263;
+			productRefGroup = AF8D69F224ED213700740263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF8D69F024ED213700740263 /* loodos */,
+				AF8D6A0624ED213F00740263 /* loodosTests */,
+				AF8D6A1124ED214000740263 /* loodosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF8D69EF24ED213700740263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8D6A0124ED213F00740263 /* LaunchScreen.storyboard in Resources */,
+				AF8D69FE24ED213F00740263 /* Assets.xcassets in Resources */,
+				AF8D69FC24ED213700740263 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8D6A0524ED213F00740263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8D6A1024ED214000740263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FF12EECAF4192BA879FC082 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-loodos-loodosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B39984DF7C86442BF8DB2D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-loodos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC661EE2AEAF1FF8BD8BE1E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-loodosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF8D69ED24ED213700740263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8D69F924ED213700740263 /* ViewController.swift in Sources */,
+				AF8D69F524ED213700740263 /* AppDelegate.swift in Sources */,
+				AF8D69F724ED213700740263 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8D6A0324ED213F00740263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8D6A0C24ED214000740263 /* loodosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8D6A0E24ED214000740263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8D6A1724ED214000740263 /* loodosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF8D6A0924ED213F00740263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF8D69F024ED213700740263 /* loodos */;
+			targetProxy = AF8D6A0824ED213F00740263 /* PBXContainerItemProxy */;
+		};
+		AF8D6A1424ED214000740263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF8D69F024ED213700740263 /* loodos */;
+			targetProxy = AF8D6A1324ED214000740263 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF8D69FA24ED213700740263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8D69FB24ED213700740263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF8D69FF24ED213F00740263 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8D6A0024ED213F00740263 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF8D6A1924ED214000740263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF8D6A1A24ED214000740263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF8D6A1C24ED214000740263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9087350018465A4218C236CF /* Pods-loodos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX28VCRX7G;
+				INFOPLIST_FILE = loodos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkaydelen.loodos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF8D6A1D24ED214000740263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED99A911B23C640CC843E0DF /* Pods-loodos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX28VCRX7G;
+				INFOPLIST_FILE = loodos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkaydelen.loodos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF8D6A1F24ED214000740263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422CB27CECC558BF920EAEE8 /* Pods-loodosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX28VCRX7G;
+				INFOPLIST_FILE = loodosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkaydelen.loodosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loodos.app/loodos";
+			};
+			name = Debug;
+		};
+		AF8D6A2024ED214000740263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E9FEF970595DDE79CC8F98 /* Pods-loodosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX28VCRX7G;
+				INFOPLIST_FILE = loodosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkaydelen.loodosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/loodos.app/loodos";
+			};
+			name = Release;
+		};
+		AF8D6A2224ED214000740263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B532018BBCA206990742579D /* Pods-loodos-loodosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX28VCRX7G;
+				INFOPLIST_FILE = loodosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkaydelen.loodosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = loodos;
+			};
+			name = Debug;
+		};
+		AF8D6A2324ED214000740263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C37287AF05E18C60ED7DCA /* Pods-loodos-loodosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX28VCRX7G;
+				INFOPLIST_FILE = loodosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkaydelen.loodosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = loodos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF8D69EC24ED213700740263 /* Build configuration list for PBXProject "loodos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8D6A1924ED214000740263 /* Debug */,
+				AF8D6A1A24ED214000740263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8D6A1B24ED214000740263 /* Build configuration list for PBXNativeTarget "loodos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8D6A1C24ED214000740263 /* Debug */,
+				AF8D6A1D24ED214000740263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8D6A1E24ED214000740263 /* Build configuration list for PBXNativeTarget "loodosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8D6A1F24ED214000740263 /* Debug */,
+				AF8D6A2024ED214000740263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8D6A2124ED214000740263 /* Build configuration list for PBXNativeTarget "loodosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8D6A2224ED214000740263 /* Debug */,
+				AF8D6A2324ED214000740263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF8D69E924ED213700740263 /* Project object */;
+}
