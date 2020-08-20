@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17147" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17120"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="DetailContentCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailContentCell" rowHeight="204" id="KGk-i7-Jjw" customClass="DetailContentCell" customModule="loodos" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="204"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="204"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HE0-ib-Xio">
+                        <rect key="frame" x="20" y="8" width="284" height="35"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Özet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAR-fy-hIW">
+                                <rect key="frame" x="0.0" y="0.0" width="284" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="wAR-fy-hIW" secondAttribute="bottom" id="WLM-5t-A5A"/>
+                            <constraint firstItem="wAR-fy-hIW" firstAttribute="leading" secondItem="HE0-ib-Xio" secondAttribute="leading" id="foL-lz-AhD"/>
+                            <constraint firstAttribute="height" constant="35" id="mQ1-OY-u8I"/>
+                            <constraint firstItem="wAR-fy-hIW" firstAttribute="top" secondItem="HE0-ib-Xio" secondAttribute="top" id="sQK-Qu-TWC"/>
+                            <constraint firstAttribute="trailing" secondItem="wAR-fy-hIW" secondAttribute="trailing" id="xnU-Pr-4wb"/>
+                        </constraints>
+                    </view>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtC-03-nWD">
+                        <rect key="frame" x="16" y="51" width="288" height="145"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <string key="text">After saving Xandar from Ronan's wrath, the Guardians are now recognized as heroes. Now the team must help their leader Star Lord (Chris Pratt) uncover the truth behind his true heritage. Along the way, old foes turn to allies and betrayal is blooming. And the Guardians find that they are up against a devastating new menace who is out to rule the galaxy.</string>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="HE0-ib-Xio" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="6B8-ie-zNM"/>
+                    <constraint firstItem="WtC-03-nWD" firstAttribute="top" secondItem="HE0-ib-Xio" secondAttribute="bottom" constant="8" id="9gc-W5-ukX"/>
+                    <constraint firstItem="HE0-ib-Xio" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="BLo-Ag-lcl"/>
+                    <constraint firstAttribute="trailing" secondItem="HE0-ib-Xio" secondAttribute="trailing" constant="16" id="Csr-lk-z5v"/>
+                    <constraint firstAttribute="bottom" secondItem="WtC-03-nWD" secondAttribute="bottom" constant="8" id="RbS-Lf-0vN"/>
+                    <constraint firstItem="WtC-03-nWD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="pPg-0u-hKB"/>
+                    <constraint firstAttribute="trailing" secondItem="WtC-03-nWD" secondAttribute="trailing" constant="16" id="qMO-XL-qXQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="movieDetail" destination="WtC-03-nWD" id="wgb-nd-Rul"/>
+            </connections>
+            <point key="canvasLocation" x="-81.159420289855078" y="115.17857142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

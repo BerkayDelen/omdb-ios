@@ -7,7 +7,25 @@
 		<key>loodos.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>21</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AF8D69F024ED213700740263</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF8D6A0624ED213F00740263</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF8D6A1124ED214000740263</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

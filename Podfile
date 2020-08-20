@@ -6,6 +6,12 @@ target 'loodos' do
   use_frameworks!
 
   # Pods for loodos
+  pod 'Firebase/Analytics'
+  pod 'Firebase/RemoteConfig'
+
+
+  pod 'Kingfisher', '~> 5.0'
+  pod 'Alamofire'
 
   target 'loodosTests' do
     inherit! :search_paths
