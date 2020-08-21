@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17147" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17120"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlertView" customModule="loodos" customModuleProvider="target">
+            <connections>
+                <outlet property="alertView" destination="715-6n-JpH" id="tsZ-Od-sGy"/>
+                <outlet property="backBview" destination="bU0-do-5ea" id="e7d-a0-bT9"/>
+                <outlet property="parentView" destination="iN0-l3-epB" id="fem-3O-VIy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bU0-do-5ea">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="715-6n-JpH" customClass="CircleButton" customModule="loodos" customModuleProvider="target">
+                            <rect key="frame" x="145" y="266.66666666666669" width="85" height="85"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="85" id="1zy-sR-DVa"/>
+                                <constraint firstAttribute="width" constant="85" id="V3E-EL-s9j"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="circle" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="As9-lb-2qv" customClass="CircleButton" customModule="loodos" customModuleProvider="target">
+                            <rect key="frame" x="149" y="270.66666666666669" width="77" height="77"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="77" id="sWN-8G-v5D"/>
+                                <constraint firstAttribute="height" constant="77" id="uop-Y5-SkM"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="circle" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.55000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="As9-lb-2qv" firstAttribute="centerY" secondItem="bU0-do-5ea" secondAttribute="centerY" id="WTa-i6-M0P"/>
+                        <constraint firstItem="As9-lb-2qv" firstAttribute="centerX" secondItem="bU0-do-5ea" secondAttribute="centerX" id="frH-HO-1Mw"/>
+                        <constraint firstItem="715-6n-JpH" firstAttribute="centerY" secondItem="bU0-do-5ea" secondAttribute="centerY" id="gdb-1p-oBy"/>
+                        <constraint firstItem="715-6n-JpH" firstAttribute="centerX" secondItem="bU0-do-5ea" secondAttribute="centerX" id="mxJ-6v-z8R"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="bU0-do-5ea" secondAttribute="trailing" id="0x5-iS-bq7"/>
+                <constraint firstAttribute="bottom" secondItem="bU0-do-5ea" secondAttribute="bottom" id="XLu-lF-mP1"/>
+                <constraint firstItem="bU0-do-5ea" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gVJ-tp-tmX"/>
+                <constraint firstItem="bU0-do-5ea" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="god-2D-dy0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="22.5" y="12"/>
+        </view>
+    </objects>
+</document>
