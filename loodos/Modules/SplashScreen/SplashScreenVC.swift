@@ -72,9 +72,9 @@ class SplashScreenVC: UIViewController {
     }
 
     func fetchConfig() {
-        UIView.animate(withDuration: 0.1) {
-            self.noConnectionView.alpha = 0
-        } completion: { (success) in
+        UIView.animate(withDuration: 0.2, animations: {
+  self.noConnectionView.alpha = 0
+        }) { (success) in
             UIView.animate(withDuration: 0.3) {
                 self.outView2.alpha = 0
             }
